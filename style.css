@@ -51,11 +51,13 @@
   padding: 0px;
 }
 
-.item, .title {
+.item, 
+.title {
   list-style: none;
 }
 
-input, .btn{
+input,
+ .btn{
   outline: none;
 }
 
