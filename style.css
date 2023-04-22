@@ -47,16 +47,16 @@
 }
 
 .to-do {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .item, .title {
-  list-style:none;
+  list-style: none;
 }
 
 input, .btn{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -161,14 +161,14 @@ input, .btn{
 
 /* Edit Task */
 .to-do .item .item__text {
-  display:none
+  display: none
 }
 
 .to-do .item .edit-mode .item__text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .to-do .item .edit-mode .item__task {
-  display:none;
+  display: none;
 }
