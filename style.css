@@ -156,7 +156,7 @@ input,
 }
 
 /* Completed */
-.to-do#completed-tasks .item__task {
+.to-do#completed__tasks .item__task {
   text-decoration: line-through;
   color: #888;
 }
