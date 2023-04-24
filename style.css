@@ -5,30 +5,30 @@
   font-family: Lato, sans-serif;
 }
 
-.img {
+.body__header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.img img {
+.body__header img {
   width: 100%;
 }
 
-.img .more-info {
+.body__header {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .img { 
+    .body__header { 
     text-align: center;
 }
 
 }
 
-.main {
+.body__main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -42,7 +42,7 @@
   flex-grow: 1;
 }
 
-.form {
+.add__form {
   display: flex;
 }
 
