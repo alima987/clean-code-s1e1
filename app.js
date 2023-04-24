@@ -8,10 +8,10 @@
 
 // Event handling, user interaction is what starts the code execution.
 
-var taskInput=document.getElementById(".add__input");//Add a new task.
-var addButton=document.getElementsByTagName(".add__btn")[0];//first button
-var incompleteTaskHolder=document.getElementById("to-do-tasks");//ul of #incompleteTasks
-var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
+var taskInput=document.querySelector(".add__input");//Add a new task.
+var addButton=document.querySelector(".add__btn")[0];//first button
+var incompleteTaskHolder=document.getElementById("to-do__tasks");//ul of #incompleteTasks
+var completedTasksHolder=document.getElementById("completed__tasks");//completed-tasks
 
 
 //New task list item
@@ -34,8 +34,11 @@ var createNewTaskElement=function(taskString){
 
     label.innerText=taskString;
     label.className='item__task';
+    deleteButtonImg.className = 'item__img'
 
     //Each elements, needs appending
+    listItem.className = "item";
+    checkBox.classList = "item__checkbox"
     checkBox.type="checkbox";
     editInput.type="text";
     editInput.className=".item__text";
@@ -91,6 +94,7 @@ var editTask=function(){
 
         //switch to .editmode
         //label becomes the inputs value.
+        editInput.classList = "item__task"
         label.innerText=editInput.value;
         editBtn.innerText="Edit";
     }else{
