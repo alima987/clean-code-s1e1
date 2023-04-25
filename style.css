@@ -130,11 +130,11 @@ input,
   vertical-align: middle;
 }
 
-.item > .item__checkbox {
+.item__checkbox {
   margin: 0 10px;
 }
 
-.item > .item__task {
+.item__task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -156,21 +156,21 @@ input,
 }
 
 /* Completed */
-.to-do#completed__tasks .item__task {
+#completed__tasks .item__task {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.to-do .item .item__text {
+.item__text {
   display: none;
 }
 
-.to-do .item .edit-mode .item__text {
+.edit-mode .item__text {
   display: inline-block;
   width: 224px;
 }
 
-.to-do .item .edit-mode .item__task {
+.edit-mode .item__task {
   display: none;
 }
